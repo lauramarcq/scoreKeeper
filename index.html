@@ -23,9 +23,6 @@
                     </div>
                     <div class="card-content">
                         <div class="media">
-                            <div class="media-left">
-
-                            </div>
                             <div class="media-content">
                                 <p class="title is-1">Ping Pong Score Keeper</p>
                                 <div id="scores">
@@ -36,23 +33,28 @@
 
                         <div class="content">
                             <section>
-                                <h2>Select to play up to 11 or 21 points:</h2>
                                 <div class="playto11or12">
-                                    <div class="columns">
-                                        <div class="column is-half is-offset-one-quarter">
-                                            <label for="playto"
-                                                class="label is-large is-inline column is is-half is-offset-one-quarter">Play
-                                                to</label>
-                                            <form class="control column is is-half is-offset-one-quarter" id="playto">
-                                                <label class="radio">
-                                                    <input type="radio" name="answer" value="11">
-                                                    11
-                                                </label>
-                                                <label class="radio">
-                                                    <input type="radio" name="answer" value="21">
-                                                    21
-                                                </label>
-                                            </form>
+                                    <div class="column is-full">
+                                        <div class="column is-half">
+                                            <label for="playto" class="label is-large is-inline">Select
+                                                to play to:</label>
+                                            <div class="container">
+                                                <div class="row justify-content-evenly">
+                                                    <form class="control col align-self-center" id="playto">
+                                                        <div class="col-4"> <label class="radio">
+                                                                <input type="radio" name="answer" value="11">
+                                                                11 points
+                                                            </label>
+
+                                                        </div>
+                                                        <div class="col-4"> <label class="radio">
+                                                                <input type="radio" name="answer" value="21">
+                                                                21 points
+                                                            </label>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
